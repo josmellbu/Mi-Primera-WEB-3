@@ -1,11 +1,28 @@
-.menu{
-	text-align: center;
+*{
+	margin: 0px;
+	padding: 0px;
 }
 
-.menu li{
+body{
+	background-color: #F8F8F8;
+}
+
+header{
+	border: solid 1px orange;
+	padding-top: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.explorador{
+	text-align: center;
+	padding: 25px;
+}
+
+.explorador li{
 	display: flex;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
 	display: inline-block;
 }
 
@@ -13,12 +30,51 @@
 	text-align: center;
 }
 
-.logo a{
-	text-align: center;
-}
-
 .logo img{
 	width: 100%;
 	max-width: 150px;
-	position: relative;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu div{
+	border: solid 1px red;
+	flex: 20%;
+}
+
+.items{
+	border: solid 1px black;
+	display: flex;
+}
+
+.items div{
+	text-align: center;
+	flex: 25%;
+	border: solid 1px green;
+	padding: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.produc_dia{
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-right: 600px;
+	padding-left: 150px;
+}
+
+.text{
+	height: 500px;
+	width: 400px;
+	text-align: center;
+	border: solid 1px red;
+}
+
+.sec1{
+	border: solid 1px black;
+	background-image: url(img/sec1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
